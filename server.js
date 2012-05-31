@@ -46,6 +46,9 @@ app.get('/tops', function(req, res) {
 	res.render('tops.jade', { tops: tops, title: "lanka tops" });
 });
 
+app.get('/testing', function(req, res) {
+  res.render('testing.jade', { title: "testing" });
+});
 
 app.listen(process.env['app_port'] || 3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
