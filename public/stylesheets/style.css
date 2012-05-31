@@ -80,6 +80,11 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	margin:0 5%;
 }
 
+#main-container {
+	background-image: url(../img/watercolor-grunge-000053-metallic-gold.jpg);
+	background-repeat: repeat; 
+}
+
 /* ===================
     ALL: Orange Theme
    =================== */
