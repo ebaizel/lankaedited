@@ -1,0 +1,90 @@
+#header-container{ border-bottom: 20px solid #FFFFF0; background:#FFFFE0; }
+#footer-container{ border-top:    20px solid #FFFFF0; background:#FFFFE0; }
+
+#title{ color: black; }
+
+header h1 a, header h1 a:hover, header a:visited {
+    color:black;
+    text-decoration:none;
+}
+
+#footer-container p {
+    font-size: 16px;
+    color: black;
+}
+
+.gallerypic {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    position: relative;
+    margin: 10px 0 0 5px;
+    display: block;
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    align: left;
+}
+
+.gallerypic:nth-child(4n+1) {
+    --clear: both;
+}
+
+#sidedesc {
+    float: right;
+    position: relative;
+    width: 30%;
+    color: white;
+}
+
+#gallery {
+    width: 70%;
+    float: left;
+}
+
+#gallery p {
+    text-align: right;
+    line-height: 1em;
+}
+
+#gallery .desc {
+    clear:both; 
+    float:right;
+    line-height: 1em;
+    color: white;
+
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+
+#gallery .price {
+    color: red;
+    font-size: 16px;
+    float: right;
+    clear:both;
+
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+
+#sidedesc h2 {
+    font-size: 24px;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.galleryitem {
+    float:left;
+    width: 22%;
+    margin: 5px;
+}
